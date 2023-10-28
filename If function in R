@@ -1,0 +1,17 @@
+# IF Function In Function  
+
+casefun <- function(b="Enter the Y or N"){
+  
+  b 
+
+  
+  if (b == "Y") {
+    print ( " Hello Friend Welcome To R World ")
+  }else 
+  {
+     print("Sorry Your Lose Your Entry")
+  }
+  
+  
+}
+casefun("Y")
